@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# To Do Apps
 
-## Getting Started
+## Description
+To Do Apps is a task management application that allows users to create, edit, and delete task lists. Users can mark tasks as completed and utilize authentication login for security.
 
-First, run the development server:
+## Features
+- **Create Tasks**: Users can add new tasks to the list.
+- **Edit Tasks**: Users can update existing task details.
+- **Delete Tasks**: Users can remove tasks from the list.
+- **Mark Tasks as Completed**: Users can mark tasks that have been finished.
+- **Authentication Login**: Users must log in to access the application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Deployed Application Link
+You can access the deployed application [here](https://todo-app-gemapala-8cth.vercel.app/signin).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+- **Fullstack**: Next.js
+- **Database and Authentication**: Supabase with PostgreSQL
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+To run this project locally, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Itskindavenven/todo-app-gemapala
 
-## Learn More
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app-gemapala
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
+   ```bash
+   npm install @supabase/supabase-js @supabase/ssr react-icons
+    npx shadcn-ui@latest init
+    npx shadcn-ui@latest add button card checkbox input label separato
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the application:
+   ```bash
+   npm run serve
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
+After the application is running, users can log in using:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: lis4m4x@gmail.com
+- Password: 123456
