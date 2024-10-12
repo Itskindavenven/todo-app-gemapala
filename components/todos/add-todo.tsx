@@ -31,6 +31,7 @@ export default function AddTodo() {
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function PlusIcon(props: any) {
   return (
     <svg

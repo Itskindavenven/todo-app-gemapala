@@ -35,6 +35,7 @@ export default async function Home() {
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function CheckCircleIcon(props: any) {
   return (
     <svg
